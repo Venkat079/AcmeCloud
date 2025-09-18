@@ -7,7 +7,7 @@ GitHub Repo: [📁 View Source](https://github.com/Venkat079/AcmeCloud)
 
 ---
 
-## 📁 Project Structure
+## 📁 TASK Structure
 
 acmecloud/
 ├── index.html # Homepage (Hero + Features + CTA)
@@ -57,3 +57,4 @@ acmecloud/
 1. Clone the repository:
 ```bash
 git clone https://github.com/Venkat079/AcmeCloud.git
+
