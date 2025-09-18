@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact – AcmeCloud</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="assets/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="index.html">AcmeCloud</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Header -->
+  <section class="py-5 text-white text-center" style="background: linear-gradient(to right, #ff4e50, #f9d423);">
+    <div class="container">
+      <h1 class="fw-bold mb-3">Contact Our Team</h1>
+      <p class="lead">Have questions, feedback, or ready to start a project? We'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="bg-white p-5 rounded shadow-sm">
+            <form action="#" method="POST">
+              <div class="mb-3">
+                <label for="name" class="form-label fw-bold"><i class="bi bi-person-fill me-2"></i>Full Name</label>
+                <input type="text" id="name" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold"><i class="bi bi-envelope-fill me-2"></i>Email Address</label>
+                <input type="email" id="email" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label fw-bold"><i class="bi bi-chat-left-dots-fill me-2"></i>Your Message</label>
+                <textarea id="message" rows="5" class="form-control" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg mt-3">
+                <i class="bi bi-send-fill me-1"></i>Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 AcmeCloud Inc. All rights reserved.</p>
+      <small>Built with Bootstrap 5</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
