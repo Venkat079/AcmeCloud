@@ -9,14 +9,7 @@ GitHub Repo: [📁 View Source](https://github.com/Venkat079/AcmeCloud)
 
 ## 📁 TASK Structure
 
-acmecloud/
-├── index.html # Homepage (Hero + Features + CTA)
-├── about.html # About Us & Services page
-├── contact.html # Contact form with colorful header
-├── assets/
-│ └── css/
-│ └── style.css # (Optional) custom styles
-└── README.md # Project report
+<pre> ``` acmecloud/ ├── index.html # Homepage (Hero + Features + CTA) ├── about.html # About Us & Services page ├── contact.html # Contact form with colorful header ├── assets/ │ └── css/ │ └── style.css # (Optional) custom styles └── README.md # Project report ``` </pre>
 
 
 ---
@@ -57,4 +50,5 @@ acmecloud/
 1. Clone the repository:
 ```bash
 git clone https://github.com/Venkat079/AcmeCloud.git
+
 
